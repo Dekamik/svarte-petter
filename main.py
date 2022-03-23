@@ -3,10 +3,9 @@ import logging
 import os
 
 import yaml
+
 import logs
 import scraper
-
-import pandas
 
 config = yaml.safe_load(open("./config.yml", 'rt', encoding='utf8'))
 
