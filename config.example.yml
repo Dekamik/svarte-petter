@@ -1,10 +1,9 @@
 --- # Configuration variables
-api:
-  host: https://brottsplatskartan.se
-
 logging:
   logPath: ./logs
 
 scraping:
   area: stockholms län
   exportPath: ./brottsplatsdata_sthlm.csv
+  host: https://brottsplatskartan.se
+  limit: 500
